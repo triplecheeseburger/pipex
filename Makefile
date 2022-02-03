@@ -21,11 +21,11 @@ SRCS =	mandatory/pipex.c \
 OBJS = $(SRCS:%.c=%.o)
 BONUS_NAME = bonus/pipex
 BONUS_SRCS = bonus/pipex_bonus.c \
-			 bonus/utils.c \
-			 bonus/str_utils.c \
-			 bonus/ft_split.c \
-			 get_next_line/get_next_line.c \
-			 get_next_line/get_next_line_utils.c
+			 bonus/utils_bonus.c \
+			 bonus/str_utils_bonus.c \
+			 bonus/ft_split_bonus.c \
+			 bonus/get_next_line_bonus.c \
+			 bonus/get_next_line_utils_bonus.c
 BONUS_OBJS = $(BONUS_SRCS:%.c=%.o)
 HDR = ./includes
 INCLUDES = -I$(HDR)
